@@ -1,5 +1,7 @@
 # XiaoZhi MCP Bridge
 
+> 一键部署docker服务：聚合多个外部MCP服务，接入小智MCP接入点
+
 ## Quick Start
 
 ### vim config file `config.json`
