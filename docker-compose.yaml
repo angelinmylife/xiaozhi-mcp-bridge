@@ -5,10 +5,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: "xiaozhi-mcp-bridge"
+    image: "angelinmylife/xiaozhi-mcp-bridge:latest"
     container_name: "xiaozhi-mcp-bridge"
     user: "root"
     privileged: true
+    network_mode: host
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
       - "./config.json:/app/config.json:ro"
